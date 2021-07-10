@@ -1,0 +1,41 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <canvas id="canvas" style='background-image: url(../sprite/black_background.png);background-size: cover;background-repeat:no-repeat;width:800px;height:800px;' align="center"></canvas>
+        <label for="arraySize">Array Size</label>
+        <select id="arraySize" name="arraySize">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+        </select>
+        <label for="speed">Speed</label>
+        <select id="speed" name="speed">
+            <option value="1">1X</option>
+            <option value="5">2X</option>
+            <option value="25">3X</option>
+            <option value="100">Turbo</option>
+        </select>
+        <label for="sortingAlgo">Sorting Algo</label>
+        <select id="sortingAlgo" name="sortingAlgo">
+            <option value="bubble">Bubble Sort</option>
+            <option value="merge">Merge Sort</option>
+            <option value="insertionSort">Insertion Sort</option>
+            <option value="heapSort">Heap Sort</option>
+            <option value="selectionSort">Selection Sort</option>
+        </select>
+        <button type="button" id="startBtn">Start</button>
+        <button type="button" id="resetBtn">Reset</button>
+    </body>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/sort.js"></script>
+</html>
+ 
